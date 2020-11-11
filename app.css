@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+.main {
+    float: left;
+}
+
+.sidemenu {
+    float: right;
+    width: 100px;
+}
+
+.footer {
+
+}
+
+.footer ul li {
+    display: inline;
+    padding: 5px;
+}
+
+/* micro clearfx */
+.cf:before,
+.cf:after{
+    content: "";
+    display: table;
+}
+.cf:after{ clear: both; }
+.cf { zoom:1 } /* For IE 6/7 */
+
+/* test_background */
+.header {background: #faa;}
+.main {background: #afa;}
+.sidemenu {background: #aaf;}
+.footer {background: #ff5;}
